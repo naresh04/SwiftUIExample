@@ -1,0 +1,2 @@
+What is @state :   Stores local state within a view. Best for simple values.    🔹 Use Case: When a view owns a piece of state that may change.  🔹 Stored In: View’s internal storage (destroyed when the view disappears).
+what is @Binding: To allow both Parent and Child to modify the same state, use @Binding in the child view.  ChildView gets a binding (@Binding) to count, instead of a copy.When the child modifies count, the change is reflected in ParentView automatically.@Binding creates a two-way connection between the parent and child.
