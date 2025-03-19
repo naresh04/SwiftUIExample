@@ -1,0 +1,69 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2818
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 Times-Bold;\f1\fmodern\fcharset0 Courier-Bold;\f2\fmodern\fcharset0 Courier;
+\f3\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\margl1440\margr1440\vieww9000\viewh8400\viewkind0
+\deftab720
+\pard\tx22293\pardeftab720\sa280\partightenfactor0
+
+\f0\b\fs28 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 What is 
+\f1\fs30\fsmilli15210 @ObservedObject
+\f0\fs28  in SwiftUI?\
+\pard\tx22293\pardeftab720\sa240\partightenfactor0
+
+\f2\b0\fs26 \cf0 @ObservedObject
+\f3\fs24  is a property wrapper in SwiftUI that allows a view to observe changes in an external data model that conforms to the 
+\f2\fs26 ObservableObject
+\f3\fs24  protocol. \
+When the observed object changes, the view automatically updates.\
+\pard\tx22293\pardeftab720\partightenfactor0
+
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 Why Use 
+\f1\fs26 @ObservedObject
+\f0\fs24 ?\
+
+\f3\b0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 	\
+		
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 1
+\f3\b0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 . 
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 Manages Complex State
+\f3\b0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 : Useful when handling complex state that is separate from the view\
+		
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 2.
+\f3\b0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2  
+\f0\b \strokec2 Allows Data Sharing Between Views: 
+\f3\b0 \strokec2 A model can be shared across multiple views.\
+		
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 3. Automatically Updates Views: 
+\f3\b0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 When the observed object updates, SwiftUI automatically refreshes the UI.\
+\
+\pard\tx22293\pardeftab720\partightenfactor0
+
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 How 
+\f1\fs26 @ObservedObject
+\f0\fs24  Works\
+\
+\pard\tx22293\pardeftab720\partightenfactor0
+
+\f3\b0 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 		1. A class that conforms to 
+\f2\fs26 ObservableObject
+\f3\fs24 .\
+		2. Properties marked with 
+\f2\fs26 @Published
+\f3\fs24  to notify the UI of changes.\
+		3. A view that uses 
+\f2\fs26 @ObservedObject
+\f3\fs24  to observe changes.\
+\pard\tx22293\pardeftab720\partightenfactor0
+\cf0 \strokec2 \
+\pard\tx22293\pardeftab720\partightenfactor0
+\cf0 \
+}
